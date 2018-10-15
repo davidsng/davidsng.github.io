@@ -56,4 +56,10 @@ header.startup h1 {
   border-width: 5px;
   cursor: pointer;
 }
-  
+
+form {
+  font-weight: bold;
+  background-color: rgba(115, 115, 115, 0.5);
+  border-radius: 25px;
+  padding: 2em
+}
