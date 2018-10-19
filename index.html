@@ -2,11 +2,8 @@
 <html>
 
 <head>
-  <title>Startup</title>
-
-  <!-- Google Fonts -->
+  <title>Landing Page</title>
   <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-<!-- Bootstrap CDN -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
     crossorigin="anonymous">
   <link href="style.css" rel="stylesheet">
@@ -43,10 +40,23 @@
               tabindex="-1" value=""></div>
 
         </form>
+        <!-- Testing Stripe plug in -->
+        <form action="your-server-side-code" method="POST">
+          <script
+            src="https://checkout.stripe.com/checkout.js" class="stripe-button"
+            data-key="pk_test_SLAM0qAKSPvno21mQmJ1cKI2"
+            data-amount="999"
+            data-name="ds.com.sg"
+            data-description="Example charge"
+            data-image="https://stripe.com/img/documentation/checkout/marketplace.png"
+            data-locale="auto"
+            data-currency="sgd">
+          </script>
+        </form>
       </div>
     </div>
   </header>
-
+  <script type="text/javascript" src="script.js"></script>
 </body>
 
 </html>
